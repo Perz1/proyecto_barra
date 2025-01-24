@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Practica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="image/pngtree-digital-shop-logo-png-image_5884746.jpg" alt="Mi Tienda" height="40">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Tarjetas de producto -->
+    <section class="tarjetas">
+        <div class="card">
+            <img src="image/png-transparent-headphones-beats-electronics-wireless-outdoor-tech-privates-sound-headphones-electronics-bluetooth-sound.png" alt="Producto 1">
+            <h3>AUDIFONOS</h3>
+            <p>Disfruta de una experiencia sonora superior con nuestros audífonos, diseñados para ofrecer comodidad, alta calidad de audio y aislamiento del ruido para que puedas disfrutar de tu música o llamadas sin interrupciones.</p>
+            <p class="price">$100.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-transparent-precision-watch-company-jewellery-clock-watchmaker-fossil-watch-accessory-accessories-metal.png" alt="Producto 2">
+            <h3>RELOJ</h3>
+            <p>Un reloj que combina estilo y funcionalidad. Con un diseño elegante y características avanzadas, como monitorización de actividad y notificaciones, es el accesorio perfecto para cualquier ocasión.</p>
+            <p class="price">$350.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-transparent-iphone-android-tv-smartphone-samsung-galaxy-cell-phones-gadget-mobile-phone-mobile-phones-thumbnail.png" alt="Producto 1">
+            <h3>CELULAR</h3>
+            <p>Mantente conectado y productivo con nuestros teléfonos móviles de última tecnología. Con cámaras de alta resolución, baterías duraderas y pantallas nítidas, son ideales para el día a día.</p>
+            <p class="price">$1.000.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-clipart-iphone-4s-mobile-phone-accessories-iphone-6-iphone-8-samsung-galaxy-mobile-cover-gadget-rectangle.png" alt="Producto 1">
+            <h3>FUNDAS</h3>
+            <p>Protege tu dispositivo con nuestras fundas de alta calidad, disponibles en una variedad de estilos y colores para adaptarse a tus necesidades y personalidad, mientras garantizan seguridad contra caídas y golpes.</p>
+            <p class="price">$20.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-transparent-mobile-phone-accessories-charger-connection-line-data-lines-cellphone-data-line-thumbnail.png" alt="Producto 1">
+            <h3>CARGADOR</h3>
+            <p>Carga tus dispositivos rápidamente y de forma segura con nuestros cargadores de alto rendimiento. Compatibles con una amplia gama de dispositivos, ideales para mantener tu equipo siempre listo para usar.</p>
+            <p class="price">$40.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-transparent-smartphone-iphone-x-screen-protectors-toughened-glass-full-glass-glass-electronics-gadget.png" alt="Producto 1">
+            <h3>VIDRIOS</h3>
+            <p>Protege la pantalla de tu dispositivo con nuestros vidrios templados de alta resistencia. Fáciles de aplicar, ofrecen una capa extra de protección contra golpes y arañazos, manteniendo la claridad de tu pantalla intacta.</p>
+            <p class="price">$10.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-clipart-cameras-photo-cameras.png" alt="Producto 1">
+            <h3>CAMARA</h3>
+            <p>Captura momentos inolvidables con nuestras cámaras de última generación. Diseñadas para ofrecer imágenes nítidas y detalles impresionantes, ideales tanto para fotógrafos amateurs como profesionales.</p>
+            <p class="price">$600.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-clipart-television-set-led-backlit-lcd-high-definition-television-hd-ready-led-tv-miscellaneous-television.png" alt="Producto 1">
+            <h3>TELEVISOR</h3>
+            <p>Disfruta de una calidad de imagen y sonido excepcionales con nuestros televisores. Con tecnologías avanzadas como 4K, HDR y Smart TV, te garantizan una experiencia visual inigualable.</p>
+            <p class="price">$400.000</p>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="card">
+            <img src="image/png-transparent-loudspeaker-enclosure-powered-speakers-audio-public-address-systems-speaker-miscellaneous-electronics-speaker-thumbnail.png" alt="Producto 1">
+            <h3>PARLANTE</h3>
+            <p>Lleva la música a todas partes con nuestros parlantes portátiles. Compactos, resistentes y con un sonido claro y potente, son perfectos para disfrutar de tu música en cualquier lugar.</p>
+            <p class="price">$400.000</p>
+            <a href="#">Comprar</a>
+        </div>
+    </section>
+
+</div>
+
+<!-- Formulario de contacto -->
+<div class="contact-form-container">
+    <h2>Contacto</h2>
+    <form class="contact-form" action="#" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje..." required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
